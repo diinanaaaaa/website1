@@ -504,5 +504,11 @@ body {
     color: gray;
 }
 
+@media (max-width: 768px) {
+    body {
+        transform: scale(0.85);
+        transform-origin: top left;
+    }
+}
 
 
